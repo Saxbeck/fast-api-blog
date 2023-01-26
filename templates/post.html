@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+    {% block content %}
+    <div>
+        <h1>{{post.post_title}}</h1>
+    </div>
+    <article>
+        <!-- <h4>{{post.topic.topic_name}}</h4> -->
+        <p>{{post.post_body}}</p>
+        <!-- <p>Path for item ID: {{post.topic}}</p> -->
+    </article>
+    {% endblock %}

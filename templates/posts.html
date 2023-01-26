@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+    {% block content %}
+    <h1>All Posts</h1>
+        <!-- <hr> -->
+        {{posts}}
+        {% for post in posts %}
+        <article>
+            <h2><a href="/posts/{{post.id}}">{{post.post_title}}</a></h2>
+            <!-- <h4>{{post.topic.topic_name}}</h4> -->
+            <p>{{post.post_body}}</p>
+            <!-- <p>Path for item ID: {{post}}</p> -->
+        </article>
+        {% endfor %}
+    {% endblock %}

@@ -1,0 +1,8 @@
+@font-face{
+    font-family: 'PPCasa';
+    src:url('PPCasa-Regular.otf') format('OpenType');
+}
+
+.genshin {
+    font-family:"PPCasa"
+}
