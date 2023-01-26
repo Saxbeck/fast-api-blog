@@ -2,7 +2,6 @@
     {% block content %}
     <h1>All Posts</h1>
         <!-- <hr> -->
-        {{posts}}
         {% for post in posts %}
         <article>
             <h2><a href="/posts/{{post.id}}">{{post.post_title}}</a></h2>
